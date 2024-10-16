@@ -85,10 +85,16 @@ const Sidebar = () => {
             </div>
             <Separator className="dark:bg-white" />
             <div className="flex items-center justify-center">
-              <button className="color-hunt py-2 px-4 rounded-md cursor-pointer flex items-center gap-2 font-bold text-white">
-                <IoDownloadOutline className="text-white font-bold text-xl" />{" "}
-                Öz geçmiş indir
-              </button>
+              <Link
+                download="cv.pdf"
+                target="_blank"
+                href="/utkubektasoglu.pdf"
+              >
+                <button className="color-hunt py-2 px-4 rounded-md cursor-pointer flex items-center gap-2 font-bold text-white">
+                  <IoDownloadOutline className="text-white font-bold text-xl" />{" "}
+                  Öz geçmiş indir
+                </button>
+              </Link>
             </div>
           </div>
         </div>

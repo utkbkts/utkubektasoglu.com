@@ -30,7 +30,7 @@ export default function RootLayout({
       <body
         className={`${poppins.variable} ${raleway.variable} antialiased bg-bggray min-h-screen dark:text-black dark:bg-[#1a1a1a]`}
       >
-        <ThemeProvider attribute="class" defaultTheme="system">
+        <ThemeProvider attribute="class" defaultTheme="light">
           <Header />
           <div className="flex-grow min-h-screen">{children}</div>
           <ToasterProvider />
